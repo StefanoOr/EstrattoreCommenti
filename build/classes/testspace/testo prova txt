@@ -1,0 +1,36 @@
+ String facciamoFintaSiaUnFile = """
+        package xyz;
+        a // b
+        import a.b.c.Classe1;
+        import a.b.c.Classe2;
+        import a.b.c.Classe3;
+
+        // il mio primo commento
+        class MiaClass {
+
+            // il mio costruttore
+            public MiaClass(){
+
+            'questa è una stringa javascript // e questo commento non è catturato'
+
+              classe.metodo(/* questo non è un debito */ 5).altro(/* questo è un debito */);)
+            }
+
+            // in questo commento io uso*/ che va bene
+
+            /*
+             * un commento valido
+             */
+             public void methodo1() {
+               return "Ciao // \\\" mondo"; // questo commento
+             }
+
+             /** un altro commento valido*/
+             public void() methodo2(int p1, /* int p2,*/ double p3){}
+
+             /**
+              scrivo qualcosa
+              */
+              public void method3() {}
+        }
+        // questo viene riconosciuto""";
